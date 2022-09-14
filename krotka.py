@@ -1,0 +1,13 @@
+krotka = (1, 4, 55, 3, 56, 33)
+krotka2 = ()
+krotka3 = (4,)
+
+print(type(krotka))
+print(type(krotka2))
+print(type(krotka3))
+print(krotka[1])
+x = list(krotka2)
+x.append(34)
+print(x)
+krotka4 = tuple(x)
+print(krotka4)
