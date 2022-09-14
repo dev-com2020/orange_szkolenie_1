@@ -59,3 +59,4 @@ print(napis.capitalize())
 print(napis.upper())
 print(napis, "wita...", 4, "razy")
 print(napis + " wita..." + " 4 razy")
+
