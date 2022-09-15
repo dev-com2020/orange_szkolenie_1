@@ -43,7 +43,6 @@ for i in range(len(x)):
     if x[i] < 0:
         print("Znaleziono liczbę ujemną na indeksie", i)
 
-
 # comprehension (generatory)
 y = [i for i in range(3, 7)]
 print(y)
@@ -58,3 +57,9 @@ print({value: key for key, value in slownik.items()})
 zbior = [1, 2, 3, 3, 3, 3, 4, 4, 4, 5]
 zbior2 = {i * 2 for i in zbior}
 print(zbior2)
+
+for i in range(-10, -1, 2):
+    print(i)
+
+for i in range(-1, -10, -2):
+    print(i)
