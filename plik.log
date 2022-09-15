@@ -1,0 +1,3 @@
+Python dostarcza pełny zestaw narzędzi do kontroli przepływu sterowania programu,
+włącznie z pętlami while oraz for i instrukcjami warunkowymi.
+Python korzysta z poziomów wcięć, by grupować instrukcje w bloki kodu.
