@@ -10,3 +10,6 @@ print(f"Lubię {rzecz}")
 print(f"Jest teraz godzina: {godzina} , a dziś mamy {dzien} ")
 
 
+
+for i in rzecz:
+    print(i)
