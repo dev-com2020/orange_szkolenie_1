@@ -1,4 +1,4 @@
-__all__ = ['test', 'odejmij']
+__all__ = ['test', 'odejmij', 'klasa1']
 
 
 def odejmij(a, b):

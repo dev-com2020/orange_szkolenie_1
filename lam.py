@@ -36,3 +36,39 @@ def kwadrat(parametr):
 print(funkcja(lambda x: x + 1, 7))
 # print(funkcja(kwadrat, 7))
 print(funkcja(lambda x: x * x, 7))
+
+
+def cztery():
+    x = 0
+    while x < 4:
+        print("W generatorze x =", x)
+        yield x
+        x += 1
+
+#
+# for i in cztery():
+#     print(i)
+
+
+#
+# print(2 in cztery())
+# print(5 in cztery())
+
+cztery()
+
+def wznowienie():
+    print("wstrzymuje")
+    yield 1
+    print("wzawiam")
+    print("wstrzymuje")
+    yield 2
+    print("wzawiam")
+
+gen = wznowienie()
+print(type(gen))
+#
+# for i in wznowienie():
+#     print("Zwrócono wartość:", i)
+
+print(gen.__next__())
+print(gen.__next__())
